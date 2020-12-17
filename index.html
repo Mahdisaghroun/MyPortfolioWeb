@@ -5,6 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mahdi Saghroun</title>
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <style id="applicationStylesheet" type="text/css">
 :root {
 	--web-view-ids: Samsung_Galaxy_S10__1,iPhone_XR_XS_Max_11__1,iPad_Nexus_9__1,Home;
@@ -7039,8 +7040,8 @@ window.application = new Application();
 </head>
 <body>
 <div id="Samsung_Galaxy_S10__1">
-	<div id="Groupe_1">
-		<img id="IMG_20200930_124030" src="Assets/img/IMG_20200930_124030.png" srcset="Assets/img/IMG_20200930_124030.png 1x, Assets/img/IMG_20200930_124030@2x.png 2x">
+	<div   id="Groupe_1">
+		<img data-aos="fade-left" id="IMG_20200930_124030" src="Assets/img/IMG_20200930_124030.png" srcset="Assets/img/IMG_20200930_124030.png 1x, Assets/img/IMG_20200930_124030@2x.png 2x">
 			
 		<div id="Im">
 			<div id="Hello_im">
@@ -7564,7 +7565,7 @@ window.application = new Application();
 	</div>
 </div>
 <div id="iPad_Nexus_9__1">
-	<img id="IMG_20200930_124030_fh" src="Assets/img/IMG_20200930_124030_fh.png" srcset="Assets/img/IMG_20200930_124030_fh.png 1x, Assets/img/IMG_20200930_124030_fh@2x.png 2x">
+	<img data-aos="fade-left" id="IMG_20200930_124030_fh" src="Assets/img/IMG_20200930_124030_fh.png" srcset="Assets/img/IMG_20200930_124030_fh.png 1x, Assets/img/IMG_20200930_124030_fh@2x.png 2x">
 		
 	<div id="Im_fi">
 		<div id="Hello_im_fj">
@@ -7609,7 +7610,7 @@ window.application = new Application();
 			</path>
 		</svg>
 		<div id="My_name_is_Mahdi_Saghroun__and_ft">
-			<span>My name is Mahdi Saghroun  and I'm 21 years old. Since I started my studies on IT bachelor degree, my story<br/>of passion to the coding and programming began. I had fun when I could fix bugs, It taught me a lot of<br/>patience. Honestly, I didn't like being like everyone else in the university, coming and going, falling into the<br/>routine. I wanna be creative, learn and share my knowledge with people, I always wanted to be special in<br/>this domain. I was working as a freelancer with companies outside Tunisia and studying at the same<br/>time. Then I experienced teaching in workshops and trainings in many different places in Tunisia.</span><br>
+			<span>My name is Mahdi Saghroun  and I'm 21 years old. Since I started my studies on IT bachelor degree, my story<br/>of passion to the coding and programming began. I had fun when I could fix bugs, It taught me a lot of<br/>patience. Honestly, I didn't like being like everyone else in the university, coming and going, falling into the<br/>routine. I wanna be creative, learn and share my knowledge with people, I always wanted to be special in<br/>this domain. I was working as a freelancer with companies outside Tunisia and studying at the same<br/>time. </span><br>
 		</div>
 		<div id="_My_favorite_quotes_fu">
 			<span> My favorite quotes</span>
@@ -7824,8 +7825,15 @@ window.application = new Application();
 	</div>
 </div>
 <div id="Home">
-	<div id="Home_hx">
-		<img id="IMG_20200930_124030_hy" src="Assets/img/IMG_20200930_124030_hy.png" srcset="Assets/img/IMG_20200930_124030_hy.png 1x, Assets/img/IMG_20200930_124030_hy@2x.png 2x">
+	<div id="Home_hx" >
+		<img  data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center" id="IMG_20200930_124030_hy" src="Assets/img/IMG_20200930_124030_hy.png" srcset="Assets/img/IMG_20200930_124030_hy.png 1x, Assets/img/IMG_20200930_124030_hy@2x.png 2x">
 			
 		<div id="Navbar">
 			<svg class="Rectangle_1">
@@ -7888,7 +7896,7 @@ window.application = new Application();
 			</svg>
 			</a>
 		</div>
-		<div id="AboutMe_id">
+		<div id="AboutMe_id" data-aos="fade-left">
 			<div id="About_me_ie">
 				<span>About me</span>
 			</div>
@@ -7897,7 +7905,7 @@ window.application = new Application();
 				</path>
 			</svg>
 			<div id="My_name_is_Mahdi_Saghroun__and_ig">
-				<span>My name is Mahdi Saghroun  and I'm 21 years old. Since I started my studies on IT bachelor degree, my story<br/>of passion to the coding and programming began. I had fun when I could fix bugs, It taught me a lot of<br/>patience. Honestly, I didn't like being like everyone else in the university, coming and going, falling into the<br/>routine. I wanna be creative, learn and share my knowledge with people, I always wanted to be special in<br/>this domain. I was working as a freelancer with companies outside Tunisia and studying at the same<br/>time. Then I experienced teaching in workshops and trainings in many different places in Tunisia.</span><br>
+				<span>My name is Mahdi Saghroun  and I'm 21 years old. Since I started my studies on IT bachelor degree, my story<br/>of passion to the coding and programming began. I had fun when I could fix bugs, It taught me a lot of<br/>patience. Honestly, I didn't like being like everyone else in the university, coming and going, falling into the<br/>routine. I wanna be creative, learn and share my knowledge with people, I always wanted to be special in<br/>this domain. I was working as a freelancer with companies outside Tunisia and studying at the same<br/>time. </span><br>
 			</div>
 			<div id="_My_favorite_quotes_ih">
 				<span> My favorite quotes</span>
@@ -8113,5 +8121,11 @@ window.application = new Application();
 	</div>
 </div>
 
+  <script>
+   AOS.init({
+  duration: 1200,
+})
+
+  </script>
 </body>
 </html>
